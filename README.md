@@ -17,6 +17,8 @@
 
 ## ![img](./Images/greenCheck.png)진행 방식
 
+- **반드시 풀기 전에 git fetch upstream을 한다! **
+
 - 본인의 레포지토리에서 문제를 풀고 commit 양식을 지켜서 commit한다.
 
 - 본인의 레포지토리에 push한다.
@@ -65,6 +67,24 @@
 
 - README.md 파일을 수정하기 위해서는 Typora를 설치하시면 편하게 마크다운 파일 수정이 가능합니다!
   <br />
+
+<br />
+
+## ![img](./Images/greenCheck.png)레포지토리 최신화
+
+- git remote -v로 내가 로컬에 등록한 원격 저장소를 확인한다.
+- 내 저장소만 로컬에 등록되어 있다면, 
+- git remote add upstream https://github.com/moonwonki/BOJ_Algorithm  
+- 이제 upstream이라는 이름으로 원본 저장소가 지정되었다.
+- git fetch upstream
+- git merge upstream/main
+- 이렇게 하면 내 원본 저장소에 파일이 내려받아지고, 내 레포지토리와 원본 코드가 존재하는 repository의 코드가 동기화된다.
+
+
+
+https://se0-dev.tistory.com/12
+
+<br />
 
 <br />
 
