@@ -17,7 +17,13 @@
 
 ## ![img](./Images/greenCheck.png)진행 방식
 
-- 아무 문제나 풀고 **pull request**를 보낸다!
+- 본인의 레포지토리에서 문제를 풀고 commit 양식을 지켜서 commit한다.
+
+- 본인의 레포지토리에 push한다.
+
+- 브라우저로 본인 깃허브 페이지에 들어와서 **pull request**를 클릭한다!
+
+- pull request 양식에 맞춰서 작성한 후, pull Request를 보낸다.
 
 - 자신이 막힌 부분과 문제 풀이 방식을 주석으로 올려 놓으면 피드백을 받기가 더 쉽다!
 
