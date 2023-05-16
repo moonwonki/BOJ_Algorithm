@@ -1,11 +1,11 @@
-# ![img](./.Images/computer.png)BOJ_Algorithm
+# ![img](./Images/computer.png)BOJ_Algorithm
 <br />
 
-![img](./.Images/java.png)**백준 알고리즘 스터디 깃허브**
+![img](./Images/java.png)**백준 알고리즘 스터디 깃허브**
 
 <br />
 
-## ![img](./.Images/greenCheck.png)참가 인원
+## ![img](./Images/greenCheck.png)참가 인원
 
 | 이름   | github 주소                  | 목표                               |
 | ------ | ---------------------------- | ---------------------------------- |
@@ -15,7 +15,7 @@
 
 <br />
 
-## ![img](./.Images/greenCheck.png)진행 방식
+## ![img](./Images/greenCheck.png)진행 방식
 
 - 아무 문제나 풀고 **pull request**를 보낸다!
 
@@ -27,7 +27,7 @@
 
 <br />
 
-## ![img](./.Images/greenCheck.png)백준 문제 제출 방법
+## ![img](./Images/greenCheck.png)백준 문제 제출 방법
 
 - 백준은 소스코드를 제출할 때 클래스 이름을 반드시 Main으로 해야 한다.
 
@@ -41,7 +41,7 @@
 
 <br />
 
-## ![img](./.Images/greenCheck.png)참가 방법
+## ![img](./Images/greenCheck.png)참가 방법
 
 - 깃허브 레포지토리 우측 상단에 있는 **Fork** 버튼 클릭. (Clone 아님!)  
 - 본인의 알고리즘 레포지토리 생성 확인!  
@@ -64,7 +64,7 @@
 
 <br />
 
-## ![img](./.Images/upload.png)업로드 양식
+## ![img](./Images/upload.png)업로드 양식
 
 - 파일 이름은 baekjoon_<문제번호> 로 올린다.
 
@@ -72,7 +72,7 @@
 
 <br />
 
-## ![img](./.Images/upload.png)commit 규칙
+## ![img](./Images/upload.png)commit 규칙
 
 - commit 메세지 : **[문제 출처(플랫폼)]** 문제이름 / solved.ac 기준 난이도
 - description : 문제 주소 (필수 아님)
@@ -81,7 +81,7 @@
 
 <br />
 
-## ![img](./.Images/upload.png)Pull Request 규칙
+## ![img](./Images/upload.png)Pull Request 규칙
 
 - PR 제목 : **이름 / 문제 번호 / 문제 이름**
 - comment는 자유입니다.
