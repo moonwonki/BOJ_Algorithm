@@ -1,4 +1,4 @@
-package org.example.BOJ_Algorithm;
+package org.example.BOJ_Algorithm.moonwonki;
 
 import java.io.*;
 import java.util.*;
