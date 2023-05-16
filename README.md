@@ -41,7 +41,6 @@ import 문을 포함해야 한다.
 
 1. 깃허브 레포지토리 우측 상단에 있는 Fork 버튼 클릭. (Clone 아님!)
 2. 본인의 알고리즘 레포지토리 생성 확인!
-
 3. 본인 레포지토리에서 README.md 파일 정독 후, 참가 인원 표 수정하기.
 4. Pull Request 클릭!
 5. New pullt request 버튼 클릭!
@@ -53,6 +52,7 @@ import 문을 포함해야 한다.
 
 
 자세한 방법은 https://waytocse.tistory.com/59 해당 링크에 자세히 나와있습니다!
+README.md 파일을 수정하기 위해서는 Typora를 설치하시면 편하게 마크다운 파일 수정이 가능합니다!
 
 
 
