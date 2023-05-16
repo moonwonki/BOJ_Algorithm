@@ -1,4 +1,4 @@
-package org.example.BOJ_Algorithm.bfsdfs;
+package org.example.BOJ_Algorithm;
 
 import java.io.*;
 import java.util.*;

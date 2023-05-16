@@ -1,4 +1,4 @@
-package org.example.BOJ_Algorithm.dp;
+package org.example.BOJ_Algorithm;
 
 import java.io.BufferedReader;
 import java.io.IOException;
