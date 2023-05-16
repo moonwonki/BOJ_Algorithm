@@ -21,7 +21,7 @@
 
 ### 진행 방식
 
-아무 문제나 풀고 pull request를 보낸다!
+아무 문제나 풀고 **pull request**를 보낸다!
 
 만약 문제를 풀다가 막힌다면 unsolved 폴더에 소스코드를 올린다.
 
@@ -51,13 +51,13 @@ import 문을 포함해야 한다.
 
 ### 참가 방법
 
-1. 깃허브 레포지토리 우측 상단에 있는 Fork 버튼 클릭. (Clone 아님!)
-2. 본인의 알고리즘 레포지토리 생성 확인!
-3. 본인 레포지토리에서 README.md 파일 정독 후, 참가 인원 표 수정하기.
-4. Pull Request 클릭!
-5. New pullt request 버튼 클릭!
-6. 충돌나는지 여부 확인 후 create pull request 클릭!
-7. Pull Request의 내용을 마음껏 작성하고 create pull request 보내기!
+- 1. 깃허브 레포지토리 우측 상단에 있는 **Fork** 버튼 클릭. (Clone 아님!)  
+- 2. 본인의 알고리즘 레포지토리 생성 확인!  
+- 3. 본인 레포지토리에서 README.md 파일 정독 후, **참가 인원 표 수정**하기.  
+- 4. **Pull Request** 클릭!  
+- 5. New pullt request 버튼 클릭!  
+- 6. 충돌나는지 여부 확인 후 create pull request 클릭!  
+- 7. Pull Request의 내용을 마음껏 작성하고 create pull request 보내기!  
 
 이렇게 하면 base 레포지토리 관리자가 확인하고 merge 할 것입니다!
 
@@ -89,7 +89,7 @@ README.md 파일을 수정하기 위해서는 Typora를 설치하시면 편하�
 
 ### commit 규칙
 
-- commit 메세지 : [문제 출처(플랫폼)] 문제이름 / solved.ac 기준 난이도
+- commit 메세지 : **[문제 출처(플랫폼)]** 문제이름 / solved.ac 기준 난이도
 - description : 문제 주소 (필수 아님)
 
 
@@ -100,7 +100,7 @@ README.md 파일을 수정하기 위해서는 Typora를 설치하시면 편하�
 
 ### Pull Request 규칙
 
-- PR 제목 : 이름 / 문제 번호 / 문제 이름
+- PR 제목 : **이름 / 문제 번호 / 문제 이름**
 - comment는 자유입니다.
 
 
