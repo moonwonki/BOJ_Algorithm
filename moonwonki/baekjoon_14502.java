@@ -22,7 +22,7 @@ public class baekjoon_14502 {
         ySizeMap = Integer.parseInt(st.nextToken());
         xSizeMap = Integer.parseInt(st.nextToken());
 
-        map = new int[ySizeMap][xSizeMap];
+        map = new int[ySizeMap][xSizeMap]; 
         wall = new ArrayList<>();
         virus = new ArrayList<>();
         Max = 0;
