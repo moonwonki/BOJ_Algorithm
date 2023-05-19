@@ -36,11 +36,11 @@
 
 **지금 현재 구조는 이렇습니다.**
 
-> <img src="./Images/readme 설명 (1).png" alt="img" style="zoom:50%;" />
+> ![img](./Images/readme 설명 (1).png)
 
 **내 변경사항을 base 레포지토리에 적용하려면, base 레포지토리의 주인에게 pull request를 보내야 합니다!**
 
-> <img src="./Images/readme 설명 (2).png" alt="img" style="zoom:50%;" />
+> ![img](./Images/readme 설명 (2).png)
 
 
 
