@@ -26,12 +26,12 @@
 - 깃허브 레포지토리 우측 상단에 있는 **Fork** 버튼 클릭. (Clone 아님!)  
 - 본인의 알고리즘 레포지토리 생성 확인!  
 
-
+<br />
 
 그런 후에 자신만의 방법대로 자신의 레포지토리에서 README.md 파일을 수정해보세요! 그 후에 자기 레포지토리에 그것을 commit, push까지 해보세요.
 
 - 본인 레포지토리에서 README.md 파일 정독 후, **참가 인원 표 수정**하기.  
-
+<br /><br />
 
 
 **지금 현재 구조는 이렇습니다.**
@@ -40,7 +40,7 @@
 
 **내 변경사항을 base 레포지토리에 적용하려면, base 레포지토리의 주인에게 pull request를 보내야 합니다!**
 
-![img](./Images/readme 설명 (2).png)
+![readme 설명 (2)](https://github.com/moonwonki/BOJ_Algorithm/assets/97062552/f8df3b6e-abac-4818-a84f-c67a8898c8e1)
 
 
 
