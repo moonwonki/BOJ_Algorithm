@@ -36,7 +36,7 @@
 
 **지금 현재 구조는 이렇습니다.**
 
-![img](./Images/readme 설명 (1).png)
+![readme 설명 (1)](https://github.com/moonwonki/BOJ_Algorithm/assets/97062552/409c9bb2-c9c4-4a4f-a9d6-3ef09c8b57b6)
 
 **내 변경사항을 base 레포지토리에 적용하려면, base 레포지토리의 주인에게 pull request를 보내야 합니다!**
 
