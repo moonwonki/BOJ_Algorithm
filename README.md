@@ -71,7 +71,8 @@
 
 ## ![img](./Images/greenCheck.png)진행 방식
 
-- **반드시 풀기 전에 'git fetch upstream'과 'git merge upstream/main'을 한다! ** (최신화된 base 레포지토리에서 내 레포지토리로 받아오는 과정입니다.)
+- **반드시 풀기 전에 'git fetch upstream'과 'git merge upstream/main'을 한다!** 
+- (최신화된 base 레포지토리에서 내 레포지토리로 받아오는 과정입니다.)
 
 - 본인의 레포지토리에서 문제를 풀고 commit 양식을 지켜서 commit한다.
 
