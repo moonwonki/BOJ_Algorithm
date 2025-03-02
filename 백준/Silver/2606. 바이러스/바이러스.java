@@ -1,59 +1,52 @@
-import java.util.LinkedList;
-import java.util.Queue;
-import java.util.Scanner;
+import java.io.*;
+import java.util.*;
 
-public class Main {
-    static boolean visited[];
-    static int connection[][];
-    static boolean virus[];
-
-    static int computerNum;
-    static int connectionNum;
 
 
 
-    public static void main(String[] args) {
-        Scanner scn = new Scanner(System.in);
+public class Main {
+    public static void main(String[] args) throws IOException {
 
-        computerNum = scn.nextInt();
-        connectionNum = scn.nextInt();
-        visited = new boolean[computerNum+1];
-        connection = new int[computerNum+1][computerNum+1];
-        virus = new boolean[computerNum+1];
+        //입력
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        StringTokenizer st;
+        int computerNum = Integer.parseInt(br.readLine());
+        int connectionNum = Integer.parseInt(br.readLine());
 
+        boolean[][] connections = new boolean[computerNum + 1][computerNum + 1];
         for (int i = 0; i < connectionNum; i++){
-            int originCom = scn.nextInt();
-            int connectedCom = scn.nextInt();
-            connection[originCom][connectedCom] = 1;
-            connection[connectedCom][originCom] = 1;
+            st = new StringTokenizer(br.readLine());
+            int firstCom = Integer.parseInt(st.nextToken());
+            int secondCom = Integer.parseInt(st.nextToken());
+
+            connections[firstCom][secondCom] = true;
+            connections[secondCom][firstCom] = true;
         }
 
-        dfs(1);
+        boolean[] computerChecked = new boolean[computerNum + 1];
+        int count = 0;
 
-        int sum = 0;
-        for (int i = 2; i < computerNum+1; i++){
-            if (virus[i] == true){
-                sum++;
+        Queue<Integer> qu = new LinkedList<>();
+
+        computerChecked[1] = true;
+        qu.add(1);
+
+        while (!qu.isEmpty()){
+            int currentComputer = qu.poll();
+
+            for (int j = 1; j <= computerNum; j++){
+                if (connections[currentComputer][j]){
+                    if (computerChecked[j]) continue;
+                    count++;
+                    computerChecked[j] = true;
+                    qu.add(j);
+                }
+
             }
         }
-        System.out.println(sum);
-        //finish
-    }
 
-    public static void dfs(int virusCheckingCom){
-        if (visited[virusCheckingCom] == true){
-            return;
-        }
-        visited[virusCheckingCom] = true;
-
-        for (int i = 2; i < computerNum+1; i++){
-            if (connection[virusCheckingCom][i] == 0){
-                continue;
-            }
-            else {
-                virus[i] = true;
-                dfs(i);
-            }
-        }
+        System.out.println(count);
     }
 }
+
+
